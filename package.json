@@ -1,0 +1,13 @@
+{
+  "name": "animal-map",
+  "version": "0.0.1",
+  "private": true,
+  "devDependencies": {
+    "shadow-cljs": "2.19.8"
+  },
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  }
+}
+

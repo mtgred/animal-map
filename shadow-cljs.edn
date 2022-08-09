@@ -1,0 +1,9 @@
+{:source-paths ["src/cljs"]
+ :dependencies [[binaryage/devtools "1.0.6"]
+                [reagent "1.1.1"] ]
+ :dev-http {8080 "public"}
+ :builds {:frontend
+          {:target :browser
+           :output-dir "public/js"
+           :dev {:modules {:main {:init-fn animalmap.dev/init!}}}
+           :release {:modules {:main {:init-fn animalmap.release/init!}}}}}}
